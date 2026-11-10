@@ -2,7 +2,7 @@ import { Coffee } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border bg-white px-6 py-12">
+    <footer className="border-t border-border bg-[#f8f6ef] px-6 py-12">
       <div className="mx-auto flex max-w-7xl flex-col justify-between gap-8 md:flex-row md:items-center">
 
         <a href="/" className="flex items-center gap-2">
