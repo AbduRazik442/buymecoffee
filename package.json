@@ -6,6 +6,10 @@
     "apps/web",
     "apps/api"
   ],
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
   "scripts": {
     "dev": "concurrently -k \"npm run dev --workspace=apps/web\" \"npm run dev --workspace=apps/api\"",
     "dev:web": "npm run dev --workspace=apps/web",
@@ -16,4 +20,5 @@
   "devDependencies": {
     "concurrently": "^9.2.5"
   }
+  
 }
